@@ -5,5 +5,5 @@ num2 = float(input("Digite o segundo número: "))
 # Calcula a soma
 soma = num1 + num2
 
-# Exibe o resultado
+# Exibe o resultados
 print("A soma dos números é:", soma)
