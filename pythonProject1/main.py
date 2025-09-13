@@ -6,4 +6,4 @@ num2 = float(input("Digite o segundo número: "))
 soma = num1 + num2
 
 # Exibe o resultados
-print("A soma dos números é:", soma)
+print("A soma do total é:", soma)
