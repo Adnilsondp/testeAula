@@ -1,0 +1,20 @@
+name: continous Delivery
+on:
+  push:
+    braches:
+      -main # ou qualquer outrs brsnch
+
+jobs:
+  Deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v5
+
+      - name: simulando Continuous Delivery
+        uses: actions/upload-artifact@v5
+        with:
+          name: projetozipado.zip
+          path:
+            '**.py'
+            README.md
